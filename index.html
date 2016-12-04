@@ -10,14 +10,50 @@
     <h1>Список компаний</h1>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <div class="panel-group">
+    <script>
+		$ (document) .ready ( function () { 
+    		$ ( '[data-toggle = "tooltip"] ' ) .tooltip ();
+	   	});  
+	</script>
+    <div class="panel-group" id="collapse-group">
 		<div class="panel panel-default">
-			 <div class="panel-heading">IBA Group</div>
-			 <div class="panel-body">IBA Minsk (CП ЗАО «Международный деловой альянс») — крупный белорусский разработчик, производитель и поставщик информационных технологий, один из центров разработок международного холдинга IBA Group.</div>
+			 <div class="panel-heading">
+			 	<a data-toggle="collapse" data-parent="#collapse-group" href="#el1">IBA Group</a>
+			 </div>
+			 <div id="el1" class="panel-collapse collapse">
+				 <div class="panel-body text-info small">
+				 IBA Minsk (CП ЗАО «Международный деловой альянс») — крупный белорусский разработчик, производитель и поставщик информационных технологий, один из центров разработок международного холдинга IBA Group.
+</div>
+				 <div class="text-right">
+				 <button type="button" class="btn btn-link"><a href="iba.html" data-toggle="tooltip" data-placement="auto" title="Перейти на страницу подробного описания"><span class="glyphicon glyphicon-list-alt"></span> Подробнее</a></button>
+			 	</div>
+			</div>
 		</div>
 		<div class="panel panel-default">
-			 <div class="panel-heading">IBA Group</div>
-			 <div class="panel-body">Текст</div>
+			 <div class="panel-heading">
+			 	<a data-toggle="collapse" data-parent="#collapse-group" href="#el2">EPAM</a>
+			 </div>
+			 <div id="el2" class="panel-collapse collapse">
+				 <div class="panel-body text-info small">
+				 EPAM открывает свои двери и дарит новые возможности для IT-специалистов из ближнего и дальнего зарубежья. Заинтересовались вакансией в белорусском офисе EPAM? Мы будем рады пригласить вас в команду. Ответим на любые вопросы, поможем при переезде и обеспечим комфортную адаптацию в Беларуси. Присоединяйтесь!
+</div>
+				 <div class="text-right">
+				 <button type="button" class="btn btn-link"><a href="epam.html" data-toggle="tooltip" data-placement="auto" title="Перейти на страницу подробного описания"><span class="glyphicon glyphicon-list-alt"></span> Подробнее</a></button>
+			 	</div>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			 <div class="panel-heading">
+			 	<a data-toggle="collapse" data-parent="#collapse-group" href="#el3">Itransition</a>
+			 </div>
+			 <div id="el3" class="panel-collapse collapse">
+				 <div class="panel-body text-info small">
+				 Основная ценность Itransition — наши сотрудники. Их профессионализм, целеустремленность, новые идеи и энергия делают нашу компанию одним из лидеров рынка. Мы тщательно подбираем, обучаем и заботимся о наших сотрудниках. Мы развиваем способных, нагружаем сильных, озадачиваем умных! Компания «Итранзишэн» предлагает отличные условия работы, обширный социальный пакет и большой список бонусов. Некоторые из них легко измерить в деньгах, другие — бесценны!
+</div>
+				 <div class="text-right">
+				 <button type="button" class="btn btn-link"><a href="itransition.html" data-toggle="tooltip" data-placement="auto" title="Перейти на страницу подробного описания"><span class="glyphicon glyphicon-list-alt"></span> Подробнее</a></button>
+			 	</div>
+			</div>
 		</div>
 	  </div>
   </body>

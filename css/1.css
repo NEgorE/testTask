@@ -4,3 +4,18 @@
 h1{
 	margin: 1em;
 }
+.panel-heading{
+	font-size: 1.2em;
+	font-weight: 600;
+}
+.items{
+	margin: 1em;
+}
+img{
+	float: left;
+	margin: 0 1em 1em 0;
+}
+body{
+	background-color: cadetblue;
+	color: white;
+}
