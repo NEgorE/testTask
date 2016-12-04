@@ -1,10 +1,10 @@
-.panel{
+.card{
 	margin: 1em;
 }
 h1{
 	margin: 1em;
 }
-.panel-heading{
+.card-heading{
 	font-size: 1.2em;
 	font-weight: 600;
 }
